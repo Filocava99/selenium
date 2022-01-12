@@ -21,14 +21,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Prendo93/selenium"
+	"github.com/Prendo93/selenium/chrome"
+	"github.com/Prendo93/selenium/firefox"
+	"github.com/Prendo93/selenium/log"
+	"github.com/Prendo93/selenium/sauce"
 	socks5 "github.com/armon/go-socks5"
 	"github.com/blang/semver"
 	"github.com/google/go-cmp/cmp"
-	"github.com/tebeka/selenium"
-	"github.com/tebeka/selenium/chrome"
-	"github.com/tebeka/selenium/firefox"
-	"github.com/tebeka/selenium/log"
-	"github.com/tebeka/selenium/sauce"
 )
 
 type Config struct {

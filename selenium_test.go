@@ -12,10 +12,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Prendo93/selenium"
+	"github.com/Prendo93/selenium/internal/seleniumtest"
 	"github.com/blang/semver"
 	"github.com/golang/glog"
-	"github.com/tebeka/selenium"
-	"github.com/tebeka/selenium/internal/seleniumtest"
 )
 
 var (
